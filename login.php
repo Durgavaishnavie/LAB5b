@@ -58,6 +58,6 @@ mysqli_close($con);
             <input type="submit" name="login" value="Login">
         </form>
         <br>
-        <a href="register.html" class="register-link">Register</a> here if you have not.
+        <a href="register.html">Register</a> here if you have not.
 </body>
 </html>

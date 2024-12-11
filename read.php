@@ -60,13 +60,9 @@ else
 echo "</table>";
 echo "<br>";
 
-echo "<div>
-        <form action='' method='POST'>
+echo "<form action='' method='POST'>
             <input type='submit' name='logout' value='Logout'>
-        </form>
-      </div>";
-
-echo "</div>";
+      </form">
 
 mysqli_close($con);
 ?>
